@@ -13,14 +13,9 @@
 </head>
 
 <body>
-<<<<<<< HEAD
     <div class="container-fluid">
-        <div class="jumbotron bg-info text-white text-center">
+        <div class="jumbotron bg-info text-white text-center sticky-top">
             <h2>New York Times Search</h2>
-=======
-    <div id="mainDisplay" class="container-fluid">
-        <div class="jumbotron bg-primary text-white text-center"><h2>New York Times Search</h2>
->>>>>>> d9865b0d415d336eea224379e5b69c8601ccd409
         </div>
         <form>
             <div class="form-group border p-3">
@@ -38,21 +33,19 @@
                         <option>10</option>
                     </select>
                 </div>
+                <br>
 
-        </form>
-        <br>
+                <label for="s-year ">Start Year (Optional):</label>
+                <input type="text " class="form-control " id="s-year " placeholder="YYYYMMDD ">
+                <br>
 
+                <label for="e-year ">End Year (Optional):</label>
+                <input type="text " class="form-control " id="e-year " placeholder="YYYYMMDD ">
+                <br>
 
-        <label for="s-year ">Start Year (Optional):</label>
-        <input type="text " class="form-control " id="s-year " placeholder="YYYYMMDD "><br>
-
-        <label for="e-year ">End Year (Optional):</label>
-        <input type="text " class="form-control " id="e-year " placeholder="YYYYMMDD ">
-        <br>
-
-        <button type="submit " class="btn btn-info " id="submit ">Search</button>
-        <button type="clear " class="btn btn-info " id="clear ">Clear Results</button>
-        </div>
+                <button type="submit " class="btn btn-info " id="submit ">Search</button>
+                <button type="clear " class="btn btn-info " id="clear ">Clear Results</button>
+            </div>
         </form>
 
         <form>
@@ -63,16 +56,12 @@
                 <br>
                 <div id="resultId "></div>
             </div>
-<<<<<<< HEAD
         </form>
 
-=======
-            
-            <button type="submit" class="btn btn-primary" id="submit">Search</button>
-            <button type="submit" class="btn btn-primary" id="clear">Clear Results</button>
-          </form>
-          <div id="resultID"></div>
->>>>>>> d9865b0d415d336eea224379e5b69c8601ccd409
+        <button type="submit" class="btn btn-primary" id="submit">Search</button>
+        <button type="submit" class="btn btn-primary" id="clear">Clear Results</button>
+        </form>
+        <div id="resultID"></div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js " integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
