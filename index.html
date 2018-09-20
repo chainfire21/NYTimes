@@ -13,7 +13,29 @@
 </head>
 
 <body>
+    <div class="container-fluid">
+        <div class="jumbotron bg-primary text-white text-center"><h2>New York Times Search</h2>
+        </div>
+        <form>
+            <div class="form-group">
+              <div class"bg-secondary">Search Parameters</div><br>
+              <label for="search-term">Search Term:</label>
+              <input type="text" class="form-control" id="search-term">
+              
+              <label for="search-term">Numbers of Records to retrieve:</label>
+              <input type="text" class="form-control" id="records">
+              
+              <label for="search-term">Start Year (Optional):</label>
+              <input type="text" class="form-control" id="s-year">
 
+              <label for="search-term">End Year (Optional):</label>
+              <input type="text" class="form-control" id="e-year">
+            </div>
+            
+            <button type="submit" class="btn btn-primary" id="submit">Search</button>
+            <button type="submit" class="btn btn-primary" id="clear">Clear Results</button>
+          </form>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
